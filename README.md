@@ -35,8 +35,8 @@ python telegram_chatgpt_en.py
 3. If you don't have an existing key then create a new one
 4. Install the OpanAI package: ```pip install --upgrade openai```
 5. Export your key on your working enviroment: ```export OPENAI_API_KEY=<YOUR_OPENAI_API_KEY>```
-6. Launch the telegram bot: ```python telegram_chatgpt_en_v2.py```
-7. For more information about the official ChatGPT API: https://platform.openai.com/docs/guides/chat 
+6. Launch the telegram bot: ```visionsee.py```
+8. For more information about the official ChatGPT API: https://platform.openai.com/docs/guides/chat 
 
 ## TODO
 1) Exception handling
