@@ -1,5 +1,5 @@
 ## Installation
-Clone the repo and install [requirements.txt](https://github.com/IS2AI/telegram-bot-chatgpt/blob/main/voice_chat_gpt_en/requirements.txt)
+Clone the repo and install [requirements.txt]()
 ```
 git clone https://github.com/IS2AI/telegram-bot-chatgpt.git
 cd telegram-bot-chatgpt
@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 ## Create a new Telegram bot with [BotFather](https://telegram.me/botfather)
 1) Start a new conversation with the [BotFather](https://telegram.me/botfather)
-<img src = "https://github.com/IS2AI/telegram-bot-chatgpt/blob/main/botfather.png?raw=true" width="370" height="600">
+
 
 2) Send ```/newbot``` to create a new Telegram bot.
 3) When asked, enter a name for the bot.
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 python telegram_chatgpt_en.py
 ```
 2) Open the bot on Telegram and start a new conversation with ChatGPT via voice messages
-<img src = "https://github.com/IS2AI/telegram-bot-chatgpt/blob/main/voice_chat_gpt_en/telegram%20en.png?raw=true" width="370" height="600">
+
 
 ## Official ChatGPT API
 1. Log/Sign in to [OpenAI platform](https://platform.openai.com/)
