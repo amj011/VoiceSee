@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ## Run 
 1) Launch the Telegram bot
 ```
-python telegram_chatgpt_en.py
+visionsee.py
 ```
 2) Open the bot on Telegram and start a new conversation with ChatGPT via voice messages
 
@@ -38,9 +38,9 @@ python telegram_chatgpt_en.py
 6. Launch the telegram bot: ```visionsee.py```
 8. For more information about the official ChatGPT API: https://platform.openai.com/docs/guides/chat 
 
-## TODO
-1) Exception handling
-2) Include voice feedback for the exceptions
+## Future Scope 
+1) Improvements in OCR to identify currency and notes
+2) File management 
 
 ## References
 1) [revChatGPT](https://github.com/acheong08/ChatGPT)
