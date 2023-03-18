@@ -1,9 +1,8 @@
 ## Installation
 Clone the repo and install [requirements.txt]()
 ```
-git clone https://github.com/IS2AI/telegram-bot-chatgpt.git
-cd telegram-bot-chatgpt
-cd voice_chat_gpt_en
+[git clone https://github.com/IS2AI/telegram-bot-chatgpt.git](https://github.com/bijin2002/VoiceSee.git)
+cd visionsee
 pip install -r requirements.txt
 ```
 
