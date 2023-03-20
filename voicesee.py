@@ -20,9 +20,9 @@ PDFReader = download_loader("PDFReader")
 from twilio.rest import Client
 
 # Set up Twilio API credentials
-account_sid = 'AC40d557cb23044baf6a7d7f68276fad9f'
-auth_token = 'd9d38b0cc3cd358da072ddda9640841e'
-twilio_number = '+13854834301'
+account_sid = ''
+auth_token = ''
+twilio_number = ''
 
 # Initialize Twilio client
 client = Client(account_sid, auth_token)
@@ -39,7 +39,7 @@ def call_number(number):
     return call.sid
 
 
-openai.api_key = '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'
+openai.api_key = ''
 # create directories to save
 # input and output files
 utils.make_dir("input/voice")
@@ -48,7 +48,7 @@ utils.make_dir("output")
 
 # initialize telegram bot
 isRunning = False
-tele_token = "5798903974:AAEn4e7bNleNPubLty6q4fTV5tMuPm6_mCU"
+tele_token = ""
 tele_bot = telebot.TeleBot(tele_token, threaded=True)
 
 # the first message to ChatGPT
